@@ -49390,9 +49390,13 @@ n=Math.max(b.a,b.b)
 l=A.bg()
 l.sdG(0,B.aN)
 l.swc(new A.Ay(B.rM,new A.cs(j,r),B.Kd,m,null,null).To(0,new A.K(0,0,n,n)))
-j=k.c
-r=k.d
-a.jy(0,j,new A.i(j.a+r.a,j.b+r.b),l)},
+j=k.d
+r=j.a
+j=j.b
+q=k.c
+p=q.a
+o=q.b
+a.jy(0,q,r>j?new A.i(p+r-1,o):new A.i(p,o+j-1),l)},
 i5(a){return!0}}
 A.oB.prototype={
 ar(){return new A.vj(null,null,B.n)}}
