@@ -14812,7 +14812,7 @@ r=B.e.dB(r,60)
 s=B.e.i(r)
 if(r<10)s="0"+s
 if(q===0)return s+" seconds"
-else return""+q+":"+r},
+else return""+q+":"+s},
 Ni:function Ni(a,b){this.a=a
 this.b=b},
 Ng:function Ng(a){this.a=a},
